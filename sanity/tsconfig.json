@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "typeRoots": ["./node_modules/@types", "./types"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
